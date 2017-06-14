@@ -48,3 +48,14 @@ a:hover {
 .intro-text {
   flex-grow: 1;
 }
+
+@media screen and (max-width: 750px) {
+  .intro-wrapper {
+    display: block;
+    min-height: 100vh;
+  }
+
+  .intro-box {
+    display: none;
+  }
+}
