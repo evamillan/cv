@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8b6bf5;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+span, a, a:visited {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #98fafa;
+}
+
+a:hover {
+  background-color: #98fafa;
+  transition: all 0.7s ease-in;
+}
+
+.intro-wrapper {
+  background-color: #8b6bf5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 90vw;
+}
+
+.intro-box {
+  transform: perspective( 600px) rotateY( 45deg);
+  width: 45%;
+  height: 45%;
+  background: -moz-linear-gradient(left, rgba(232, 113, 204, 1) 0%, rgba(232, 113, 204, 0.99) 1%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(left, rgba(232, 113, 204, 1) 0%, rgba(232, 113, 204, 0.99) 1%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgba(232, 113, 204, 1) 0%, rgba(232, 113, 204, 0.99) 1%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e871cc', endColorstr='#00ffffff', GradientType=1);
+}
+
+.intro-text {
+  flex-grow: 1;
+}
